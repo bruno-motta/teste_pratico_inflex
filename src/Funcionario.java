@@ -1,4 +1,5 @@
 import java.math.BigDecimal;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 public class Funcionario extends Pessoa{
@@ -6,7 +7,7 @@ public class Funcionario extends Pessoa{
     BigDecimal salario;
     String funcao;
 
-    public Funcionario(String nome, LocalDateTime localDate, BigDecimal salario, String funcao) {
+    public Funcionario(String nome, LocalDate localDate, BigDecimal salario, String funcao) {
         super(nome, localDate);
         this.salario = salario;
         this.funcao = funcao;
