@@ -59,7 +59,7 @@ public class Main {
 
 
         System.out.println("\n");
-        System.out.println("ANIVERSARIANTES EM OUTUBRO (10) E DEZEMBRO (12)");
+        System.out.println("ANIVERSARIANTES DO MÊS DE OUTUBRO E DEZEMBRO");
         funcionarios.stream()
                 .filter(f -> {
                     int mes = f.getLocalDate().getMonthValue();
