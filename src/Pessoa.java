@@ -4,9 +4,9 @@ import java.time.LocalDateTime;
 public class Pessoa {
 
     String nome;
-    LocalDateTime localDate;
+    LocalDate localDate;
 
-    public Pessoa(String nome, LocalDateTime localDate) {
+    public Pessoa(String nome, LocalDate localDate) {
         this.nome = nome;
         this.localDate = localDate;
     }
@@ -15,15 +15,15 @@ public class Pessoa {
         return nome;
     }
 
-    public LocalDateTime getLocalDate() {
-        return localDate;
-    }
-
     public void setNome(String nome) {
         this.nome = nome;
     }
 
-    public void setLocalDate(LocalDateTime localDate) {
+    public LocalDate getLocalDate() {
+        return localDate;
+    }
+
+    public void setLocalDate(LocalDate localDate) {
         this.localDate = localDate;
     }
 }
